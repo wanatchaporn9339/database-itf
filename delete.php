@@ -25,7 +25,7 @@ $sql = "DELETE FROM guestbook WHERE ID=$id";
 if ($conn->query($sql) === TRUE) {
 echo ('<div class="container"><h1 class="display-3">Are you sure?!</h1></div>');
 echo (' <form method="get" action="show.php">
-        <button type="submit" class="btn btn-danger">Continue</button>
+        <button type="submit" class="btn btn-danger">Yes</button>
         </form>');
 } else {
 echo "Error deleting record: " . $conn->error;

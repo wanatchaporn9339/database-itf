@@ -33,6 +33,8 @@ $sql = "UPDATE guestbook SET name='$name' , comment='$comment' ,  link='$link' W
 if (mysqli_query($conn, $sql)) {
   echo ('<div class="container"><h1 class="display-3">Are you sure?!</h1></div>');
   echo (' <form method="get" action="show.php">
+  
+  
           <button type="submit" class="btn btn-success">Continue</button>
           </form>');
 } else {

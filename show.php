@@ -53,7 +53,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <th width="50"> <div align="center">Name</div></th>
       <th width="500"> <div align="center">Comment </div></th>
       <th width="100"> <div align="center">Link </div></th>
-      <th width="200"> <div align="center">action </div></th>
+      <th width="200"> <div align="center">Change </div></th>
     </tr>
   </thead>
   
@@ -67,7 +67,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <td>
         <form method="POST" action="delete.php">
          <input type="hidden" name="id" value="<?php echo $Result['ID']; ?>" />
-        <button type="submit" class="btn btn-danger" >Del</button>
+        <button type="submit" class="btn btn-danger" >Delete</button>
         </form>
         <form method="POST" action="edit.php">
          <input type="hidden" name="id" value="<?php echo $Result['ID']; ?>" />

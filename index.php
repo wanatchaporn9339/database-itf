@@ -33,7 +33,7 @@
           <br>
           <br>
         <div class="container">
-            <h1 class="display-1">LAB Database Insert</h1>
+            <h1 class="display-1">Insert Information</h1>
         </div>
         <div class="container">
             <form action = "insert.php" method = "post" id="CommentForm" >

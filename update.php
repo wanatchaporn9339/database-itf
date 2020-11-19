@@ -22,10 +22,10 @@ if (mysqli_connect_errno($conn))
 }
 
 
-$id=$_REQUEST['Id'];
-$name=$_REQUEST['Name'];
-$comment=$_REQUEST['Comment'];
-$link=$_REQUEST['Link'];
+$id=$_REQUEST['id'];
+$name=$_REQUEST['name'];
+$comment=$_REQUEST['comment'];
+$link=$_REQUEST['link'];
 
 
 $sql = "UPDATE guestbook SET name='$name' , comment='$comment' ,  link='$link' WHERE id=$id";

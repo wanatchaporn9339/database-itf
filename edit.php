@@ -53,7 +53,7 @@ $conn->close();
           <br>
           <br>
         <div class="container">
-            <h1 class="display-1">Update Information</h1>
+            <h1 class="display-3">Update Information</h1>
         </div>
 
         <div class="container">
